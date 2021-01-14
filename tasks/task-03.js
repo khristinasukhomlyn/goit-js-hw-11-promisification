@@ -15,6 +15,7 @@ const makeTransaction = (transaction, onSuccess, onError) => {
       }
     }, delay);
   });
+  return promise;
 
 };
 
